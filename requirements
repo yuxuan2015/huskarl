@@ -1,0 +1,6 @@
+tf-nightly-2.0-preview
+cloudpickle
+scipy
+huskarl --no-deps
+gym
+pyglet
