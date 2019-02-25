@@ -32,10 +32,16 @@ Several algorithms are implemented already and many more are planned.
 
 Since TensorFlow 2.0 is not officially out yet you need to install it and other dependencies manually for now:
 ```
-pip install tf-nightly-2.0-preview
-pip install cloudpickle
-pip install scipy
-pip install huskarl --no-deps
+pip install -r requirements.txt
+```
+
+## Test
+```
+    git clone https://github.com/danaugrs/huskarl
+    cd huskarl/examples
+    python a2c-cartpole.py
+or
+    python dqn-cartpole.py
 ```
 
 ## Citing
